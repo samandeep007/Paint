@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div id="about" className="w-full h-auto bg-black flex">
+      <div id="about" className="w-full h-auto bg-black flex py-16">
         <div className="max-w-7xl mx-auto">
           <img
             src="./assets/splash.png"
