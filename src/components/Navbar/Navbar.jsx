@@ -21,7 +21,7 @@ const Navbar = () => {
     >
       <div className="w-full mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
         <div className="text-gray-300 text-3xl font-bold">
-          <a href="/" className="hover:text-green-400">
+          <a href="/" className="hover:text-pink-400">
             LawnBuddy
           </a>
         </div>
@@ -56,13 +56,13 @@ const Navbar = () => {
           } lg:flex lg:items-center lg:space-x-8 lg:flex-grow text-white`}
         >
           <div className="flex flex-col lg:flex-row lg:space-x-8 mx-12 w-full lg:justify-start">
-          <a href="#about" className="hover:text-cyan-400 transition duration-200">
+          <a href="#about" className="hover:text-pink-400 transition duration-200">
               About
             </a>
-            <a href="#features" className="hover:text-cyan-400 transition duration-200">
+            <a href="#features" className="hover:text-pink-400 transition duration-200">
               Features
             </a>
-            <a href="#testimonials" className="hover:text-cyan-400 transition duration-200">
+            <a href="#testimonials" className="hover:text-pink-400 transition duration-200">
               Testimonials
             </a>
           </div>

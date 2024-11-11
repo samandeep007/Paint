@@ -29,27 +29,27 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-gray-200">Contact</h3>
           <div className="space-y-2">
             <div className="flex items-center space-x-3">
-              <FaPhoneAlt className="text-green-400" />
+              <FaPhoneAlt className="text-pink-400" />
               <span>+1 (555) 123-4567</span>
             </div>
             <div className="flex items-center space-x-3">
-              <FaEnvelope className="text-green-400" />
+              <FaEnvelope className="text-pink-400" />
               <span>info@bowquest.com</span>
             </div>
             <div className="flex items-center space-x-3">
-              <FaMapMarkerAlt className="text-green-400" />
+              <FaMapMarkerAlt className="text-pink-400" />
               <span>1234 Learning St, Suite 500, Education City</span>
             </div>
           </div>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-cyan-400 transition duration-300">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-pink-400 transition duration-300">
               <FaLinkedin />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-cyan-400 transition duration-300">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-pink-400 transition duration-300">
               <FaTwitter />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-cyan-400 transition duration-300">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-pink-400 transition duration-300">
               <FaFacebook />
             </a>
           </div>

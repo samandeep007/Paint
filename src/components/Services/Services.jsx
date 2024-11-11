@@ -35,7 +35,7 @@ const services = [
     return (
       <>
       {/* <section  className="w-full bg-gradient-to-tr from-black via-black to-pink-900 h-32"></section> */}
-        <section className="w-full h-auto bg-gradient-to-bl from-black via-black to-fuchsia-950 flex flex-col items-center py-16 px-8 text-white">
+        <section className="w-full h-auto bg-black flex flex-col items-center py-16 px-8 text-white">
           <div className="max-w-4xl text-center mb-12">
             <h1 className="text-7xl font-bold tracking-tight text-gray-300 p-6">
               <span className="block">
