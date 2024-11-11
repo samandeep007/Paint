@@ -61,7 +61,7 @@ const Testimonials = () => {
         className="px-6 max-w-4xl mx-auto  flex items-center justify-center gap-12 h-screen"
       >
         <img
-          src="./assets/testimony.png"
+          src="./assets/roller.png"
           className="w-1/2 mt-12"
           alt=""
         />
@@ -106,8 +106,8 @@ const Testimonials = () => {
           </Slider>
         </div>
       </section>
-      <div className="bg-transparent object-contain h-96 overflow-y-hidden">
-        <img src="./assets/splashthree.png" className="max-w-7xl mx-auto" alt="" />
+      <div className="bg-transparent object-contain h-60 overflow-y-hidden">
+        <img src="./assets/splashfour.png" className="max-w-7xl mx-auto" alt="" />
       </div>
     </div>
   );
