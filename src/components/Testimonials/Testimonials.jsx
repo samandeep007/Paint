@@ -56,11 +56,12 @@ const Testimonials = () => {
   return (
     <div className="bg-gradient-to-b from-black via-black to-fuchsia-950">
       <section
-        id="testimonials"
+        id="
+        "
         className="px-6 max-w-4xl mx-auto  flex items-center justify-center gap-12 h-screen"
       >
         <img
-          src="./assets/roller.png"
+          src="./assets/testimony.png"
           className="w-1/2 mt-12"
           alt=""
         />
