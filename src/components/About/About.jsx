@@ -4,8 +4,8 @@ function About() {
       <div id="about" className="w-full h-auto bg-black flex">
         <div className="max-w-7xl mx-auto">
           <img
-            src="./assets/roller.png"
-            className="scale-60 max-w-2xl"
+            src="./assets/splash.png"
+            className="scale-60 max-w-2xl mt-8"
             alt=""
           />
         </div>
@@ -13,7 +13,7 @@ function About() {
           <h1 className="text-7xl font-bold tracking-tight text-gray-300 p-6">
             <span className="block">
             Year-Round
-              <span className="text-transparent mx-2 bg-clip-text bg-gradient-to-tr from-gray-200 via-green-300 to-green-800">
+              <span className="text-transparent mx-2 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
               Lawn Care
               </span>
               You Can Trust

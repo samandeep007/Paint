@@ -45,13 +45,13 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <div className="bg-gradient-to-bl from-black via-black to-green-900">
+    <div className="bg-gradient-to-bl from-black via-black to-fuchsia-950">
     <section id="testimonials" className="px-6 max-w-4xl mx-auto  flex items-center justify-center gap-12 h-screen">
     <img src="./assets/testimonials.png" className="h-[250px] mt-12" alt="" />
     <div className="flex flex-col justify-center mt-14 items-center">
          <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-6xl font-bold text-gray-200">
-          What our <span className="text-transparent mx-1 bg-clip-text bg-gradient-to-tr from-gray-200 via-green-300 to-green-800">
+          What our <span className="text-transparent mx-1 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
                 Learners
               </span> Say about our Courses ?
         </h2>
@@ -65,7 +65,7 @@ const Testimonials = () => {
           <div key={index} className="p-4">
             <div className="bg-gradient-to-bl from-gray-850 to-gray-900 bg-opacity-50 backdrop-blur-md shadow-lg p-8 rounded-2xl transform transition duration-300 hover:scale-105 hover:shadow-2xl border border-gray-800">
               {/* Icon */}
-              <div className="flex justify-center items-center mb-6 w-16 h-16 rounded-full bg-gradient-to-tr  from-green-950  to-green-800 text-white text-4xl">
+              <div className="flex justify-center items-center mb-6 w-16 h-16 rounded-full bg-gradient-to-tr  from-pink-700  to-pink-950 text-white text-4xl">
                 {testimonial.icon}
               </div>
 
