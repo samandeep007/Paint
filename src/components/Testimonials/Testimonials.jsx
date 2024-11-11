@@ -65,7 +65,7 @@ const Testimonials = () => {
           className="w-1/2 mt-12"
           alt=""
         />
-        <div className="flex flex-col justify-center mt-14 items-center">
+        <div className="flex flex-col justify-center mt-2 items-center">
           <div className="max-w-5xl mx-auto text-center mb-12">
             <h2 className="text-6xl font-bold text-gray-200">
               What our{" "}

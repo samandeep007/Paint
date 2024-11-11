@@ -4,8 +4,8 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Banner />
       {/* <Carousel /> */}
+      <Banner />
       <About />
       <Services />
    
