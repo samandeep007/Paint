@@ -4,9 +4,11 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <Banner />
+      {/* <Carousel /> */}
       <About />
       <Services />
-      <Banner />
+   
       <Testimonials />
       <ScrollToTop />
       <Footer />

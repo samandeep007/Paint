@@ -4,8 +4,8 @@ function About() {
       <div id="about" className="w-full h-auto bg-black flex">
         <div className="max-w-7xl mx-auto">
           <img
-            src="./assets/home.png"
-            className="max-w-[750px]"
+            src="./assets/roller.png"
+            className="scale-60 max-w-2xl"
             alt=""
           />
         </div>
