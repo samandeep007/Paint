@@ -60,7 +60,7 @@ const Testimonials = () => {
         className="px-6 max-w-4xl mx-auto  flex items-center justify-center gap-12 h-screen"
       >
         <img
-          src="./assets/testimonial.png"
+          src="./assets/roller.png"
           className="w-1/2 mt-12"
           alt=""
         />
