@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import {
-  FaUserGraduate,
-  FaStar,
-  FaRegLightbulb,
-  FaLaptopCode,
+  FaPaintBrush, FaHome, FaBuilding, FaPalette,
+  FaClipboardList,
+  FaTools,
+  FaWrench
 } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,33 +12,62 @@ import "slick-carousel/slick/slick-theme.css";
 const testimonials = [
   {
     name: "Alex Johnson",
-    role: "Software Engineer",
+    role: "Homeowner",
     feedback:
-      "This course transformed my career! The practical projects gave me real-world experience, and the flexible schedule fit perfectly into my busy life.",
-    icon: <FaLaptopCode />,
+      "The painting team did an outstanding job on our living room! The colors are exactly what we wanted, and the quality of the work exceeded our expectations. It truly transformed the space.",
+    icon: <FaPaintBrush />,
   },
   {
     name: "Sarah Williams",
-    role: "Product Manager",
+    role: "Real Estate Agent",
     feedback:
-      "The instructors are true experts, and I gained insights I couldn’t find anywhere else. I feel much more confident in my role.",
-    icon: <FaRegLightbulb />,
+      "I’ve worked with many painters, but this team stands out. Their attention to detail and commitment to perfection has made a huge difference in the properties I’m selling.",
+    icon: <FaHome />,
   },
   {
     name: "David Chen",
-    role: "Data Analyst",
+    role: "Business Owner",
     feedback:
-      "I loved the hands-on projects! They were directly relevant to my job, and the certification added real value to my resume.",
-    icon: <FaUserGraduate />,
+      "We had the exterior of our office building painted, and it looks amazing! The team was efficient, professional, and the results were beyond what we hoped for. Highly recommend their services!",
+    icon: <FaBuilding />,
   },
   {
     name: "Linda Martinez",
-    role: "Marketing Specialist",
+    role: "Interior Designer",
     feedback:
-      "The course exceeded my expectations. The community was supportive, and the content was high-quality and engaging.",
-    icon: <FaStar />,
+      "I’ve used this company for several client projects, and their work is consistently top-notch. They deliver high-quality finishes that really enhance the look and feel of any room.",
+    icon: <FaPalette />,
+  },
+  {
+    name: "John Cooper",
+    role: "Homeowner",
+    feedback:
+      "The team painted our entire house, both inside and out, and they did an incredible job. They were on time, courteous, and the result was flawless. Our home looks brand new!",
+    icon: <FaHome />,
+  },
+  {
+    name: "Emily Green",
+    role: "Property Manager",
+    feedback:
+      "I’ve hired painters for several properties, and this team stands above the rest. They were prompt, professional, and always kept me informed. The results were perfect every time.",
+    icon: <FaClipboardList />,
+  },
+  {
+    name: "Tom Harris",
+    role: "Contractor",
+    feedback:
+      "As a contractor, I often work with painters, and this team is one of the best. They’re fast, efficient, and produce excellent results, making my projects run smoothly and look fantastic.",
+    icon: <FaTools />,
+  },
+  {
+    name: "Rachel Lewis",
+    role: "Homeowner",
+    feedback:
+      "We recently had our kitchen cabinets refinished, and the transformation was incredible! The lacquer finish looks amazing, and we’re so happy with the final result.",
+    icon: <FaWrench />,
   },
 ];
+
 
 // Slider settings
 const settings = {
