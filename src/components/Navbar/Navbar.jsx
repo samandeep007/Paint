@@ -17,16 +17,17 @@ const Navbar = () => {
     <nav
       className={`fixed w-full z-50 transition-colors duration-300 ${
         isScrolled ? "bg-black/70 backdrop-blur-md" : "bg-transparent"
-      } `}
+      }`}
     >
       <div className="w-full mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
-        <div className="text-gray-200 text-3xl font-bold">
+        {/* Logo */}
+        <div className="text-gray-200 text-2xl sm:text-3xl font-bold">
           <a href="/" className="hover:text-pink-400">
             GODFATHER PAINTING LTD.
           </a>
         </div>
 
-        {/* Toggle Menu for mobile */}
+        {/* Toggle Menu for Mobile */}
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -53,10 +54,10 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:items-center lg:space-x-8 lg:flex-grow text-white`}
+          } lg:flex lg:items-center lg:space-x-8 text-white lg:flex-grow transition-all duration-300`}
         >
-          <div className="flex flex-col lg:flex-row lg:space-x-8 mx-12 w-full lg:justify-start">
-          <a href="#about" className="hover:text-pink-400 transition duration-200">
+          <div className="flex flex-col lg:flex-row lg:space-x-8 mx-12 lg:justify-start space-y-4 lg:space-y-0">
+            <a href="#about" className="hover:text-pink-400 transition duration-200">
               About
             </a>
             <a href="#features" className="hover:text-pink-400 transition duration-200">
@@ -66,18 +67,22 @@ const Navbar = () => {
               Testimonials
             </a>
           </div>
-         {/* { !isScrolled && <div className="flex gap-2">
-          <button
-        className="bg-gradient-to-tr to-gray-950 from-green-800 text-white px-6 text-md py-2 rounded-full hover:bg-cyan-600 transition duration-300"
-      >
-        Login
-      </button>
-      <button
-        className="bg-gradient-to-tr to-gray-950 from-green-900 text-white px-6 text-md py-2 rounded-full hover:bg-cyan-600 transition duration-300"
-      >
-        Register
-      </button>
-      </div>} */}
+
+          {/* 
+          {!isScrolled && (
+            <div className="flex gap-2 mt-4 lg:mt-0 lg:ml-auto">
+              <button
+                className="bg-gradient-to-tr to-gray-950 from-green-800 text-white px-6 text-md py-2 rounded-full hover:bg-cyan-600 transition duration-300"
+              >
+                Login
+              </button>
+              <button
+                className="bg-gradient-to-tr to-gray-950 from-green-900 text-white px-6 text-md py-2 rounded-full hover:bg-cyan-600 transition duration-300"
+              >
+                Register
+              </button>
+            </div>
+          */}
         </div>
       </div>
     </nav>
