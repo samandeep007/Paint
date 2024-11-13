@@ -36,7 +36,7 @@ const services = [
       <>
         <section className="w-full h-auto bg-gradient-to-bl from-black via-black to-fuchsia-900 flex flex-col items-center pt-16 pb-4 px-8 text-white">
           <div className="max-w-4xl text-center mb-12">
-            <h1 className="text-7xl font-bold tracking-tight text-gray-300 p-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-gray-300 p-6">
               <span className="block">
                 Year-Round
                 <span className="text-transparent mx-2 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">

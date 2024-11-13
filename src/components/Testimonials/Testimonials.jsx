@@ -62,7 +62,7 @@ const Testimonials = () => {
       >
         <div className="flex flex-col justify-center mt-2 items-center">
           <div className="max-w-5xl mx-auto text-center mb-12">
-            <h2 className="text-6xl font-bold text-gray-200">
+          <h2 className="text-6xl font-bold text-gray-200">
               What our{" "}
               <span className="text-transparent mx-1 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
                 Learners

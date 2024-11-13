@@ -23,13 +23,27 @@ const Carousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // Adjust this to your preference
+    slidesToShow: 3, // Show 1 slide by default
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
-    centerMode: true, // This helps space out the slides slightly
+    centerMode: true,
     focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 1024, // For tablets and up
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640, // For small screens and up
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -37,14 +51,14 @@ const Carousel = () => {
       <div className="max-w-7xl mx-auto">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="relative px-2"> {/* Added padding here */}
+            <div key={index} className="relative px-2">
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+                className="w-full h-[300px] sm:h-[400px] object-cover rounded-lg shadow-lg"
               />
               <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 rounded-md">
-                <h3 className="text-white text-xl font-semibold">
+                <h3 className="text-white text-lg sm:text-xl font-semibold">
                   {image.description}
                 </h3>
               </div>
