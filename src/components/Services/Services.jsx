@@ -47,7 +47,7 @@ const services = [
             </h1>
           </div>
   
-          <div className="max-w-7xl grid grid-cols-1 gap-16">
+          <div className="max-w-6xl grid grid-cols-1 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -61,7 +61,7 @@ const services = [
                   className="w-full md:w-1/2 h-72 object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
                 />
                 <div className="flex-1 text-center md:text-left">
-                  <h1 className="text-5xl font-bold mb-4 text-transparent mx-2 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
+                  <h1 className="text-4xl font-bold mb-4 text-transparent mx-2 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
                     {service.title}
                   </h1>
                   <p className="text-gray-200 text-[20px] font-semibold">

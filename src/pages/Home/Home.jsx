@@ -1,15 +1,15 @@
-import {About, Banner, Footer, Hero, Navbar, ScrollToTop, Services, Testimonials} from '../../components/index'
+import {About, Banner, Footer, Hero, Navbar, ScrollToTop, Services, Testimonials, Carousel, Contact} from '../../components/index'
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
-      {/* <Carousel /> */}
       <Banner />
       <About />
+      <Carousel />
       <Services />
-   
       <Testimonials />
+      <Contact />
       <ScrollToTop />
       <Footer />
     </div>

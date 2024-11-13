@@ -1,11 +1,11 @@
 function About() {
   return (
     <>
-      <div id="about" className="w-full h-auto bg-black flex py-16 max-w-8xl mx-auto ">
+      <div id="about" className="w-full h-auto bg-black flex py-8 max-w-8xl mx-auto ">
         <div className="max-w-8xl mx-auto flex items-center justify-center">
         <div className="max-w-1/2">
           <img
-            src="./assets/splash.png"
+            src="./assets/room2.png"
             className="scale-60 max-w-2xl mt-8"
             alt=""
           />

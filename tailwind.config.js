@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwind3dtransforms from "@xpd/tailwind-3dtransforms";
+
 export default {
   content: [
     "./index.html",
@@ -7,5 +9,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    tailwind3dtransforms
+  ],
 }

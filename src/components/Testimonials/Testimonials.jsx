@@ -45,7 +45,7 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 2,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 8000,
@@ -58,13 +58,8 @@ const Testimonials = () => {
       <section
         id="
         "
-        className="px-6 max-w-4xl mx-auto  flex items-center justify-center gap-12 h-screen"
+        className="px-6 max-w-4xl mx-auto flex items-center justify-center gap-12 h-screen"
       >
-        <img
-          src="./assets/roller.png"
-          className="w-1/2 mt-12"
-          alt=""
-        />
         <div className="flex flex-col justify-center mt-2 items-center">
           <div className="max-w-5xl mx-auto text-center mb-12">
             <h2 className="text-6xl font-bold text-gray-200">
@@ -79,12 +74,12 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <Slider {...settings} className="max-w-3xl mx-auto">
+          <Slider {...settings} className="max-w-6xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="p-4">
-                <div className="bg-gradient-to-bl from-gray-850 to-gray-900 bg-opacity-50 backdrop-blur-md shadow-lg p-8 rounded-2xl transform transition duration-300 hover:scale-105 hover:shadow-2xl border border-gray-800">
+                <div className="bg-gradient-to-bl from-gray-850 to-gray-900 bg-opacity-50 backdrop-blur-md  shadow-lg p-8 rounded-2xl transform transition duration-300 hover:scale-105 hover:shadow-2xl border border-gray-800">
                   {/* Icon */}
-                  <div className="flex justify-center items-center mb-6 w-16 h-16 rounded-full bg-gradient-to-tr from-pink-500 to-pink-600 text-white text-4xl">
+                  <div className="flex justify-center items-center mb-6 w-16 h-16 rounded-full bg-gradient-to-tr from-amber-300 to-pink-600 text-white text-4xl">
                     {testimonial.icon}
                   </div>
 
@@ -106,9 +101,7 @@ const Testimonials = () => {
           </Slider>
         </div>
       </section>
-      <div className="bg-transparent object-contain h-60 overflow-y-hidden">
-        <img src="./assets/splashfour.png" className="max-w-7xl mx-auto" alt="" />
-      </div>
+     
     </div>
   );
 };

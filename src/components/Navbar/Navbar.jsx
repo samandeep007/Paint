@@ -20,9 +20,9 @@ const Navbar = () => {
       } `}
     >
       <div className="w-full mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
-        <div className="text-gray-300 text-3xl font-bold">
+        <div className="text-gray-200 text-3xl font-bold">
           <a href="/" className="hover:text-pink-400">
-            LawnBuddy
+            GODFATHER PAINTING LTD.
           </a>
         </div>
 
