@@ -1,9 +1,12 @@
 import Slider from "react-slick";
 import {
-  FaPaintBrush, FaHome, FaBuilding, FaPalette,
+  FaPaintBrush,
+  FaHome,
+  FaBuilding,
+  FaPalette,
   FaClipboardList,
   FaTools,
-  FaWrench
+  FaWrench,
 } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -68,7 +71,6 @@ const testimonials = [
   },
 ];
 
-
 // Slider settings
 const settings = {
   dots: true,
@@ -90,16 +92,17 @@ const Testimonials = () => {
         className="px-6 max-w-4xl mx-auto flex items-center justify-center gap-12 h-screen"
       >
         <div className="flex flex-col justify-center mt-2 items-center">
-          <div className="max-w-5xl mx-auto text-center mb-12">
-          <h2 className="text-6xl font-bold text-gray-200">
+          <div className="max-w-5xl mx-auto text-center mb-12 px-6">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-200">
               What our{" "}
               <span className="text-transparent mx-1 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
-                Learners
+                Clients
               </span>{" "}
-              Say about our Courses ?
+              Say about our Painting Services?
             </h2>
-            <p className="text-2xl text-gray-300 mt-4">
-              Hear from those who have already taken the journey with us.
+            <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mt-4">
+              Hear from those who have already transformed their spaces with our
+              expert painting services.
             </p>
           </div>
 
@@ -130,7 +133,6 @@ const Testimonials = () => {
           </Slider>
         </div>
       </section>
-     
     </div>
   );
 };
