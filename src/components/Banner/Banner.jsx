@@ -12,7 +12,7 @@ function Banner() {
         </div>
         <div>
           <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold">
-            +1 (555) 123-4567
+              +1 (587) 429-9862
           </h1>
         </div>
       </div>
