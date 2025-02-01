@@ -75,11 +75,7 @@ const Carousel = () => {
                 alt={image.alt}
                 className="w-full h-[300px] sm:h-[400px] object-cover rounded-lg shadow-lg"
               />
-              <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 rounded-md">
-                <h3 className="text-white text-lg sm:text-xl font-semibold">
-                  {image.description}
-                </h3>
-              </div>
+            
             </div>
           ))}
         </Slider>
