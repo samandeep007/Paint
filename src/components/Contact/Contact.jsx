@@ -6,19 +6,19 @@ const Contact = () => {
       id: 1,
       icon: <FaEnvelope />,
       title: "Email",
-      details: "godfatherpaintingltd@gmail.com",
+      details: "mailto:godfatherpaintingltd@gmail.com", // Make email clickable
     },
     {
       id: 2,
       icon: <FaPhoneAlt />,
       title: "Phone",
-      details: "+1 (587) 429-9862",
+      details: "tel:+15874299862", // Make phone number clickable
     },
     {
       id: 3,
       icon: <FaMapMarkerAlt />,
       title: "Address",
-      details: "1058 Taradale Dr NE Calgary",
+      details: "https://www.google.com/maps?q=1058+Taradale+Dr+NE+Calgary", // Make address clickable to open in maps
     },
   ];
 
@@ -51,7 +51,14 @@ const Contact = () => {
                     {contact.icon}
                   </div>
                   <h3 className="text-lg sm:text-xl font-semibold text-gray-100 mb-1">{contact.title}</h3>
-                  <p className="text-gray-300 text-md sm:text-lg">{contact.details}</p>
+                  <a
+                    href={contact.details}
+                    className="text-gray-300 text-md sm:text-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {contact.details.replace(/^.*?:/, "")} {/* To display only the contact details */}
+                  </a>
                 </div>
               ))}
             </div>
