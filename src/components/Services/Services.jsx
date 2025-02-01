@@ -3,31 +3,31 @@ const services = [
     title: "Interior and Exterior Painting",
     description:
       "Transform your home’s interior and exterior with our expert painting services. Whether it's refreshing your living room or giving your house a new look, our team ensures a flawless, long-lasting finish for every project.",
-    imageUrl: "./assets/exterior.webp",
+    imageUrl: "./assets/IMG-20250128-WA0001.jpg",
   },
   {
     title: "Residential and Commercial",
     description:
       "We offer professional painting services for both residential and commercial properties. Our experienced team can handle any project, from small homes to large commercial buildings, delivering high-quality results that meet your needs.",
-    imageUrl: "./assets/commercial.webp",
+      imageUrl: "./assets/IMG-20250128-WA0006.jpg",
   },
   {
     title: "Wood Finishing",
     description:
       "Enhance the beauty and durability of your wood surfaces with our expert wood finishing services. From cabinetry to furniture, we provide smooth, professional finishes that protect and elevate the wood’s natural appearance.",
-    imageUrl: "./assets/wood.webp",
+      imageUrl: "./assets/IMG-20250128-WA0014.jpg",
   },
   {
     title: "Ceiling Spray",
     description:
       "Our ceiling spray services provide a quick and even coat of paint, ideal for textured ceilings or those needing a refresh. We ensure precision and a clean finish for your ceilings, making your space look brighter and more polished.",
-    imageUrl: "./assets/spray.webp",
+      imageUrl: "./assets/IMG-20250128-WA0029.jpg",
   },
   {
     title: "Lacquer",
     description:
       "For a high-gloss, durable finish, our lacquer services are the perfect solution. Whether for furniture, trim, or cabinetry, we apply a flawless coat of lacquer that provides both protection and a brilliant shine.",
-    imageUrl: "./assets/lacquer.webp",
+      imageUrl: "./assets/IMG-20250128-WA0010.jpg",
   },
 ];
 
