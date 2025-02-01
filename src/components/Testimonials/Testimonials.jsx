@@ -1,42 +1,37 @@
 import Slider from "react-slick";
-import {
-  FaUserGraduate,
-  FaStar,
-  FaRegLightbulb,
-  FaLaptopCode,
-} from "react-icons/fa";
+import { FaPaintBrush, FaBuilding, FaHome, FaStar } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Array of testimonials
+// Array of testimonials for a painting company
 const testimonials = [
   {
-    name: "Alex Johnson",
-    role: "Software Engineer",
+    name: "Emily Davis",
+    role: "Homeowner",
     feedback:
-      "This course transformed my career! The practical projects gave me real-world experience, and the flexible schedule fit perfectly into my busy life.",
-    icon: <FaLaptopCode />,
+      "Godfather Painting did an amazing job painting our living room! The crew was professional, timely, and the quality of work was excellent. Highly recommend for residential projects!",
+    icon: <FaHome />,
   },
   {
-    name: "Sarah Williams",
-    role: "Product Manager",
+    name: "James Smith",
+    role: "Business Owner",
     feedback:
-      "The instructors are true experts, and I gained insights I couldn’t find anywhere else. I feel much more confident in my role.",
-    icon: <FaRegLightbulb />,
+      "We hired Godfather Painting to repaint our office space, and the results were fantastic! The team worked efficiently and the space looks vibrant. Will definitely call them for future commercial projects.",
+    icon: <FaBuilding />,
   },
   {
-    name: "David Chen",
-    role: "Data Analyst",
+    name: "Sarah Wilson",
+    role: "Property Manager",
     feedback:
-      "I loved the hands-on projects! They were directly relevant to my job, and the certification added real value to my resume.",
-    icon: <FaUserGraduate />,
+      "We needed multiple units painted, and Godfather Painting delivered top-notch results every time. They were quick, clean, and the attention to detail was impressive. A great choice for large-scale commercial work!",
+    icon: <FaBuilding />,
   },
   {
-    name: "Linda Martinez",
-    role: "Marketing Specialist",
+    name: "John Peters",
+    role: "Homeowner",
     feedback:
-      "The course exceeded my expectations. The community was supportive, and the content was high-quality and engaging.",
-    icon: <FaStar />,
+      "Our new kitchen looks incredible thanks to Godfather Painting! The team was courteous and helped us choose the perfect color. Very satisfied with their work and professionalism.",
+    icon: <FaHome />,
   },
 ];
 
@@ -45,7 +40,7 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,  // Default for larger screens
+  slidesToShow: 3, // Default for larger screens
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 8000,
@@ -75,12 +70,12 @@ const Testimonials = () => {
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-200">
               What our{" "}
               <span className="text-transparent mx-1 bg-clip-text bg-gradient-to-tr from-gray-200 via-pink-300 to-pink-800">
-                Learners
+                Clients
               </span>{" "}
-              Say about our Courses?
+              Say about our Painting Services?
             </h2>
             <p className="text-xl sm:text-2xl text-gray-300 mt-4">
-              Hear from those who have already taken the journey with us.
+              Hear from homeowners and businesses who trusted us with their painting projects.
             </p>
           </div>
 
