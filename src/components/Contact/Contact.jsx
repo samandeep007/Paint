@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   const contactInfo = [
@@ -7,18 +7,21 @@ const Contact = () => {
       icon: <FaEnvelope />,
       title: "Email",
       details: "mailto:godfatherpaintingltd@gmail.com", // Make email clickable
+      displayText: "godfatherpaintingltd@gmail.com",
     },
     {
       id: 2,
       icon: <FaPhoneAlt />,
       title: "Phone",
       details: "tel:+15874299862", // Make phone number clickable
+      displayText: "+1 587-429-9862",
     },
     {
       id: 3,
       icon: <FaMapMarkerAlt />,
       title: "Address",
-      details: "https://www.google.com/maps?q=1058+Taradale+Dr+NE+Calgary", // Make address clickable to open in maps
+      details: "https://www.google.com/maps?q=1058+Taradale+Dr+NE+Calgary", // Open in Google Maps
+      displayText: "1058 Taradale Dr NE, Calgary",
     },
   ];
 
@@ -57,7 +60,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {contact.details.replace(/^.*?:/, "")} {/* To display only the contact details */}
+                    {contact.displayText}
                   </a>
                 </div>
               ))}
